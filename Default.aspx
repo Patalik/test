@@ -5,14 +5,7 @@
 
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="Server">
 
-	TEST
+	<h1>TEST</h1>
 	
-
-	
-
-	
-
-
-
 </asp:Content>
 
