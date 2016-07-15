@@ -1,0 +1,25 @@
+﻿<%@ Master Language="VB" CodeFile="MasterPage.master.vb" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+	<title></title>
+	<asp:ContentPlaceHolder ID="head" runat="server"></asp:ContentPlaceHolder>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
+	<script src="Scripts/jquery-2.1.1.min.js"></script>
+	<script src="Scripts/bootstrap.min.js"></script>
+	<script src="Scripts/ie10-viewport-bug-workaround.js"></script>
+</head>
+<body>
+	<form id="form1" runat="server">
+		<asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server"></asp:ContentPlaceHolder>
+		<div style="margin-top: 48px">
+			DEBUG:
+			<asp:LinkButton ID="lbDebug" runat="server">Odeslat</asp:LinkButton>
+			&nbsp;<asp:Literal ID="lDebug" runat="server"></asp:Literal>
+		</div>
+	</form>
+</body>
+</html>
